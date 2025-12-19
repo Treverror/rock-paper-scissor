@@ -1,0 +1,40 @@
+#root {
+  min-height: 100vh;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  margin: 0;
+  padding: 1rem 0;
+  text-align: center;
+  box-shadow: 0 0 10px 0 rgba(0, 65, 31, 0.3);
+  background: #ffffff;
+  background-color: #00ff0421;
+}
+
+header h1 {
+  color: #6a00ff88;
+  font-family: "McLaren", cursive;
+  font-weight: 600;
+}
+
+.gameArea {
+  display: flex;
+  justify-content: center;
+  border-radius: 7px;
+  background-color: rgba(0, 229, 255, 0.078);
+  box-shadow: 0 2px 5px rgba(153, 0, 255, 0.6);
+  margin: 4rem auto 0;
+  padding: 3rem 2rem;
+  max-width: 600px;
+  width: min(100%, 800px);
+}
